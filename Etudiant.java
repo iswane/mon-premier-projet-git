@@ -10,6 +10,7 @@ public class Etudiant{
 		
 	}
 	
+	// Getters
 	public String getNom(){
 		return this.nom;
 	}
@@ -18,5 +19,5 @@ public class Etudiant{
 	}
 	public String getEmail(){
 		return this.email;
-	}
+	}	
 }

@@ -12,6 +12,7 @@ public class Formateur{
 		
 	}
 	
+	// Getters
 	public String getNom(){
 		return this.nom;
 	}
@@ -24,4 +25,19 @@ public class Formateur{
 	public int getAnneeExperience(){
 		return this.anneeExperience;
 	}
+	
+	// Setters
+	public void setNom(String nom){
+		this.nom = nom;
+	}
+	public void setPrenom(String prenom){
+		this.prenom = prenom;
+	}
+	public void setEmail(String email){
+		this.email = email;
+	}
+	public void setAnneeExperience(int anneeExperience){
+		this.anneeExperience = anneeExperience;
+	}
+	
 }
