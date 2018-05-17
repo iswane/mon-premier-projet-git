@@ -12,6 +12,11 @@ public class Formateur{
 		
 	}
 	
+	public Formateur(String nom, String prenom){
+		this.nom = nom;
+		this.prenom = prenom;
+	}
+	
 	// Getters
 	public String getNom(){
 		return this.nom;
