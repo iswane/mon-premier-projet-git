@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 public class Formateur{
 	
 	private String nom;
@@ -40,4 +41,20 @@ public class Formateur{
 		this.anneeExperience = anneeExperience;
 	}
 	
+=======
+public class Formateur{
+	
+	private String nom;
+	
+	private String prenom;
+	
+	private String email;
+	
+	private int anneeE;
+	
+	public Formateur(){
+		
+	}
+	
+>>>>>>> parent of 9693fa1... Ajout des accesseurs à la classe Formateur
 }
