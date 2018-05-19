@@ -20,4 +20,15 @@ public class Etudiant{
 	public String getEmail(){
 		return this.email;
 	}	
+	
+	// Setters
+	public void setNom(String nom){
+		this.nom = nom;
+	}
+	public void setPrenom(String prenom){
+		this.prenom = prenom;
+	}
+	public void setEmail(String email){
+		this.email = email;
+	}
 }
