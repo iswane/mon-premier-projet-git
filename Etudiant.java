@@ -21,7 +21,7 @@ public class Etudiant{
 		return this.email;
 	}	
 	
-	// Setters
+	// Modificateurs
 	public void setNom(String nom){
 		this.nom = nom;
 	}
