@@ -6,10 +6,20 @@ public class Etudiant{
 	
 	private String email;
 	
+	private int age;
+	
 	public Etudiant(){
 		
 	}
-	
+	// Constructeurs avec un seul paramètre
+	public Etudiant(String nom){
+		this.nom = nom;
+	}
+	// Constructeurs avec paramètres
+	public Etudiant(String nom, String prenom){
+		this.nom = nom;
+		this.prenom = prenom;
+	}
 	// Getters
 	public String getNom(){
 		return this.nom;
